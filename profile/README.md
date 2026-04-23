@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="./assets/logo.png" alt="Slaitech" height="250">
+  <img src="../assets/logo.png" alt="Slaitech" height="250">
 </p>
 
 # Le soluzioni migliori, create su misura per te
