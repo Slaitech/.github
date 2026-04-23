@@ -1,0 +1,41 @@
+name: Richiesta funzionalita
+description: Suggerisci un'idea o una nuova funzionalita per questo progetto
+title: "[Richiesta funzionalità]: "
+labels: []
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: La richiesta di funzionalita e collegata a un problema? Descrivilo.
+      description: |
+        Descrivi in modo chiaro e conciso qual e il problema.
+        Esempio: "Mi trovo spesso in difficolta quando [...]".
+    validations:
+      required: true
+
+  - type: textarea
+    id: soluzione
+    attributes:
+      label: Descrivi la soluzione che vorresti
+      description: |
+        Descrivi in modo chiaro e conciso cosa vorresti che accadesse.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Descrivi le alternative che hai considerato
+      description: |
+        Descrivi in modo chiaro e conciso eventuali soluzioni o funzionalita alternative che hai gia valutato.
+    validations:
+      required: false
+
+  - type: textarea
+    id: contesto_aggiuntivo
+    attributes:
+      label: Contesto aggiuntivo
+      description: |
+        Aggiungi qualsiasi altro contesto o screenshot utile per la richiesta.
+    validations:
+      required: false
