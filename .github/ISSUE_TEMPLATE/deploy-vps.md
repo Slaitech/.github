@@ -91,6 +91,10 @@ Prima del setup remoto, rendi eseguibile `deploy.sh`.
 
 ```sh
 chmod +x deploy.sh
+
+# se sei su windows, lancia anche questo
+
+git update-index --chmod=+x deploy.sh
 ```
 
 - [ ] Permessi di esecuzione assegnati a `deploy.sh`
